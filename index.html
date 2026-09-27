@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechShop - E-commerce Responsivo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1 class="logo">TechShop</h1>
+        <div class="carrinho-container">
+            <span>🛒 Carrinho: </span>
+            <span id="contador-carrinho">0</span>
+        </div>
+    </header>
+
+    <main class="vitrine">
+        <div class="produto-card">
+            <div class="produto-img-placeholder">💻</div>
+            <h3>Notebook Pro 2026</h3>
+            <p class="preco">R$ 4.500,00</p>
+            <button class="btn-comprar" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+        </div>
+
+        <!--Card do Produto-->
+        <div class="produto-card">
+            <div class="produto-img-placeholder">📱</div>
+            <h3>Smartphone Alpha</h3>
+            <p class="preco">R$ 2.499,00</p>
+            <button class="btn-comprar" onclick="adicionarAoCarrinho()">Adicionar ao Carrinho</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

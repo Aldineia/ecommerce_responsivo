@@ -1,0 +1,109 @@
+/*Configurações Globais (padrão para qualquer tela)*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/*Header e Barra de navegação*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a237e;
+    color: white;
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0, 1);
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.carrinho-container{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/*Estilo Padrão: Mobile-First (para celulares)*/
+.vitrine{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.produto-card{
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    width: 100%;
+    max-width: 340px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05 );
+    border: 1px solid #e0e0e0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.produto-card:houver{
+    transform: translate(-5px);
+    box-shadow:  0 6 px 12px rgb(0, 0, 0, 0, 1);
+}
+
+.produto-img-placeholder{
+    font-size: 4rem;
+    background: #e3f2fd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.preco{
+    color: #2e7d32;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.btn-comprar{
+    background-color: #ff6f00;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.btn-comprar:houver{
+    background-color: #e65100;
+}
+
+/*Media Query (Adaptação dinâmica para Computadores e Tablets)*/
+
+@media (min-width: 768px){
+    .vitrine{
+        flex-direction: row; /*No PC, os produtos ficam lado a lado*/
+        justify-content: center; /* Centraliza a fileira de produtos*/
+        flex-wrap: wrap;  /*Se quebrar a tela, eles descem organizados*/
+        padding: 3rem;
+    }
+
+    .produto-card{
+        max-width: 280px; /*Ajustar a largura do card no computador*/
+    }
+}
