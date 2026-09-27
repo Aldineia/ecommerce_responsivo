@@ -45,5 +45,5 @@ O projeto foi publicado e pode ser testado em tempo real acessando o link oficia
 ## 👤 Autora
 
 *   **Aldinéia Monteiro Alves** - Acadêmica de Engenharia de Software (7º período)
-*   [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+
 
