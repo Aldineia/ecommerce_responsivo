@@ -4,7 +4,7 @@ Uma interface moderna e dinâmica de e-commerce desenvolvida com **HTML5**, **CS
 
 ---
 
-## 🚀 Funcionalidades e Recursos
+##  Funcionalidades e Recursos
 
 *   **Design Responsivo (Mobile-First):** Layout estruturado com **Flexbox** e otimizado nativamente para smartphones, adaptando-se de forma fluida para telas maiores (tablets e computadores) através de **Media Queries**.
 *   **Interatividade com o Carrinho:** Lógica em JavaScript para escuta de eventos e manipulação dinâmica do **DOM** (Document Object Model), incrementando o contador de itens no cabeçalho em tempo real.
@@ -12,7 +12,7 @@ Uma interface moderna e dinâmica de e-commerce desenvolvida com **HTML5**, **CS
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 *   **HTML5:** Estruturação semântica da página.
 *   **CSS3:** Estilização moderna, Flexbox, Media Queries e efeitos de transição.
@@ -22,7 +22,7 @@ Uma interface moderna e dinâmica de e-commerce desenvolvida com **HTML5**, **CS
 
 ---
 
-## 📦 Como Visualizar o Projeto Localmente
+##  Como Visualizar o Projeto Localmente
 
 ### 1. Clonar o repositório
 ```bash
@@ -35,14 +35,14 @@ Como o projeto utiliza tecnologias nativas da web, basta abrir o diretório e da
 
 ---
 
-## 🌐 Link do Site no Ar (Live Demo)
+##  Link do Site no Ar (Live Demo)
 
 O projeto foi publicado e pode ser testado em tempo real acessando o link oficial hospedado no GitHub Pages:
-👉 [Visitar a TechShop](https://github.io)
+ [Visitar a TechShop](https://github.io)
 
 ---
 
-## 👤 Autora
+##  Autora
 
 *   **Aldinéia Monteiro Alves** - Acadêmica de Engenharia de Software (7º período)
 
